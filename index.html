@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<link lang="pt-BR">
+<link>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../img/icon.png" type="image/png" sizes="16x16">
+    <title>Calculadora - Trabalho</title>
+</head>
+<body>
+    <div id="calculadora">
+        <div id="saida">
+            <input type="text" id="imprimir" minlength="20" value="0" readonly>
+        </div>
+        <div id="entrada">
+            <div id="selecao">
+                <div id="limpadores">
+                    <button value="apagar" class="botao" id="apagar">&#8656;</button>
+                    <button value="limpar" class="botao" id= limpar>C</button>
+                </div>
+                <div id="numeros">
+                    <button value="+/-" class="botao">&plusmn;</button>
+                    <button value="0" class="botao">0</button>
+                    <button value="." class="botao">,</button>
+                    <button value="1" class="botao">1</button>
+                    <button value="2" class="botao">2</button>
+                    <button value="3" class="botao">3</button>
+                    <button value="4" class="botao">4</button>
+                    <button value="5" class="botao">5</button>
+                    <button value="6" class="botao">6</button>
+                    <button value="7" class="botao">7</button>
+                    <button value="8" class="botao">8</button>
+                    <button value="9" class="botao">9</button>
+                </div>
+            </div>
+            <div id="operadores">
+                <button class="botao" value="/">&divide;</button>
+                <button class="botao" value="*">&times;</button>
+                <button class="botao" value="-">&minus;</button>
+                <button class="botao" value="+">&plus;</button>
+                <button class="botao" value="igual">&equals;</button>
+            </div>
+        </div>
+    </div>
+    <p id="creditos">By Thiago Vieira</p>
+</body>
+</html>
+<script src="script.js"></script>
